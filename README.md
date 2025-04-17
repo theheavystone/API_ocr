@@ -2,7 +2,7 @@ your_project/
 
 ├── images/               ← image dir
 
-├── ocr_batch.py          ← function
+├── gpt_ocr.py          ← function
 
 ├── ocr_results/          ← json results dir
 
