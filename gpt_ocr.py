@@ -48,10 +48,10 @@ for img_file in image_files:
     # print(f"\n📄 Image: {img_file}")
     # print(response.choices[0].message.content.strip())
 
-     # 提取文字内容
+     # extract OCR text from the response
     ocr_text = response.choices[0].message.content.strip()
 
-    # 保存为 JSON 文件
+    # save the OCR text to a JSON file
     output_data = {
         "filename": img_file,
         "ocr_text": ocr_text
